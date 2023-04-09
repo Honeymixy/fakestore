@@ -1,0 +1,68 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+.App {
+  text-align: center;
+}
+.soft {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(skyblue, white, deepskyblue);
+}
+
+.soft ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+}
+
+.images {
+  width: 18rem;
+  height: 20rem;
+}
+
+.innerdata {
+  margin-left: 1rem;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 1fr);
+}
+.details {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+}
+.details span {
+  color: blue;
+}
+.shop span {
+  color: blue;
+}
+.link li:hover {
+  font-size: 22px;
+  text-decoration: underline;
+}
+button {
+  background-color: rgb(40, 106, 237);
+  width: 6rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  color: beige;
+  
+}
+button:hover{
+  color: blue;
+  background-color: rgb(247, 250, 255);
+}
+.clickbtn  {
+  box-shadow: 2px 2px 5px #4dbffc;
+}
+
+
+.cart{
+  font-size: 24px;
+}
+.cart-items-function{
+  gap: 2rem;
+}
